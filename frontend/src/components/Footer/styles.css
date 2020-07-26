@@ -1,0 +1,30 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #691C9B;
+  width: 100%;
+  max-width: 414px;  
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin: 12px 0 12px;
+}
+
+footer ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-decoration: none;
+}
+
+footer ul li a p {
+  font-size: 10px;
+  color: #FFE94D;
+  margin-top: 6px;
+}
