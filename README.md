@@ -8,16 +8,17 @@
 Democratizamos o acesso a serviços bancários e fortalecemos negócios, de forma que empreendedores e clientes controlem as vendas e compras confiadas, ou "fiadas". O que vai gerar inteligência de crédito para a população desbancarizada.
 *Afinal, serviços bancários é para todo mundo, é Pattu!*
 
-### 🤝 Modelo Pattu
+### 🤝 Modelo Pattú
 Ajudamos pessoas a organizar e pagar suas contas e democratizamos o acesso a serviços bancários.
-**PATTU Empresas**
+
+**PATTÚ Empresas**
  - Controle unificado de vendas confiadas
  - Envio de recibo e consentimento do cliente
  - Envio de cobranças e lembretes automatizados
  - Garante fluxo de caixa e segura clientela
  - Agrega o serviço de *Saque no comércio*
  
-**PATTU Pessoas**
+**PATTÚ Pessoas**
 - Acessa extrato unificado
 - Visualiza e lembra de contas mensais
 - Programa e realiza pagamentos
