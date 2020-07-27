@@ -3,58 +3,60 @@ import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import Balance from '../../components/Balance';
 
 import './styles.css';
 
-import personImg from '../../assets/person.png'
-import mission1Img from '../../assets/mission1.png'
-import mission2Img from '../../assets/mission2.png'
-import mission3Img from '../../assets/mission3.png'
+import ico1Img from '../../assets/ico1.png'
 
 export default function Home() {
 
     return (
         <>
         <Header />
-        <div className="profile-container">
-            <section>
-                <img src={personImg} className="img-person" alt="Person"/>
-                <div className="person-container">
-                    <h3>Olá, Patricia!</h3>
-                    <p>Vamos continuar a jornada?</p>
-                    <p>Retorne à missão!</p>
+        <Balance />
+        <div className="home-container">
+            <Link to="/bills">
+                <div className="item-menu">
+                    <img src={ico1Img} alt="Icone Menu"/>
+                    <h3>Contas a pagar</h3>
                 </div>
-            </section>
+            </Link>
 
-            <section>
-                <div className="mission-container">
-                    <h4>1ª Missão do Dia</h4>
-                    <p>Completar a aula</p>
-                    <p>- Introdução à Quimica</p>
-                    <Link to="/lesson"><button>Começar!</button></Link>
+            <Link to="/map/near">
+                <div className="item-menu">
+                    <img src={ico1Img} alt="Icone Menu"/>
+                    <h3>Estabelecimentos Próximos</h3>
                 </div>
-                <img src={mission1Img} className="img-mission" alt="Mission"/>
-            </section>
+            </Link>
 
-            <section>
-                <div className="mission-container">
-                    <h4>2ª Missão do Dia</h4>
-                    <p>Completar a aula</p>
-                    <p>- Literatura Brasileira</p>
-                    <Link to="/lesson"><button>Começar!</button></Link>
+            <Link to="/map/atms">
+                <div className="item-menu">
+                    <img src={ico1Img} alt="Icone Menu"/>
+                    <h3>Caixas Eletrônicos</h3>
                 </div>
-                <img src={mission2Img} className="img-mission" alt="Mission"/>
-            </section>
+            </Link>
 
-            <section>
-                <div className="mission-container">
-                    <h4>Exercícios do Dia:</h4>
-                    <p>Química: Páginas 32 a 33</p>
-                    <p>Literatura: páginas 45 a  47</p>
-                    <button className="exercises">Abrir</button>
+            <Link to="/map/agencies">
+                <div className="item-menu">
+                    <img src={ico1Img} alt="Icone Menu"/>
+                    <h3>Agências bancárias</h3>
                 </div>
-                <img src={mission3Img} className="img-mission" alt="Mission"/>
-            </section>
+            </Link>
+
+            <Link to="history">
+                <div className="item-menu">
+                    <img src={ico1Img} alt="Icone Menu"/>
+                    <h3>Histórico de consumo</h3>
+                </div>
+            </Link>
+
+            <Link to="/withdraw">
+                <div className="item-menu">
+                    <img src={ico1Img} alt="Icone Menu"/>
+                    <h3>Ordem de Pagamento Saque Digital</h3>
+                </div>
+            </Link>
 
         </div>
         <Footer />
